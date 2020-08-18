@@ -8,11 +8,11 @@ const productRoute = require('./src/routes/products')
 const productInRoute = require('./src/routes/product_in')
 const productOutRoute = require('./src/routes/product_out')
 
-app.use('/', indexRoute)
-app.use('/users', userRoute)
-app.use('/products', productRoute)
-app.use('/productsin', productInRoute)
-app.use('/productsout', productOutRoute)
+app.use('/api/v1', indexRoute)
+app.use('/api/v1/user', userRoute)
+app.use('/api/v1/product', productRoute)
+app.use('/api/v1/in', productInRoute)
+app.use('/api/v1/out', productOutRoute)
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
