@@ -23,7 +23,11 @@ module.exports = (sequelize, DataTypes) => {
     phone_number: DataTypes.STRING,
     salt: DataTypes.STRING,
     password: DataTypes.STRING,
-    role: DataTypes.ENUM
+    role: {
+      type: DataTypes.ENUM,
+      values: ['admin', 'suplier'],
+      defaultValue: 'admin'
+    }
   }, {
     sequelize,
     modelName: 'users',
