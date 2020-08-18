@@ -1,0 +1,46 @@
+{
+  "name": "simple-wms",
+  "version": "1.0.0",
+  "description": "Simple Warehouse Management System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musfirotus/Simple-WMS.git"
+  },
+  "keywords": [
+    "Expressjs",
+    "Postman",
+    "Sequelize",
+    "MySql",
+    "Restful",
+    "API"
+  ],
+  "author": "Musfirotus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musfirotus/Simple-WMS/issues"
+  },
+  "homepage": "https://github.com/musfirotus/Simple-WMS#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.11",
+    "pdf-creator-node": "^1.4.1",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
