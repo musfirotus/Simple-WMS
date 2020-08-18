@@ -5,7 +5,7 @@ module.exports = {
     return queryInterface.bulkInsert('product_out', [{
       date: '2020-08-18 01:40:30',
       total: 5,
-      productId: 1,
+      productId: 4,
       createdAt: new Date(),
       updatedAt: new Date()
     }]);

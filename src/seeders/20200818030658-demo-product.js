@@ -6,7 +6,7 @@ module.exports = {
       name: 'Payung',
       stock: 50,
       price: 13000,
-      userId: 1,
+      userId: 3,
       createdAt: new Date(),
       updatedAt: new Date()
     }]);
