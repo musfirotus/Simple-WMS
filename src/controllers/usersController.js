@@ -5,11 +5,8 @@ const response = {
   message: "",
   data: [],
 };
-// , products, product_in, product_out
+
 const attUser = ['full_name', 'username', 'email', 'phone_number']
-// const attProduct = ['username', 'email', 'profile'];
-// const attProductIn = ['title', 'content', 'tags', 'status'];
-// const attProductOut = ['content', 'status', 'email', 'url'];
 
 class UsersController {
   static async getUsers(req, res){
